@@ -16,34 +16,6 @@
     <release version="3.1.1-dev">
       Active development ...
     </release>
-    <release version="3.1.0" date="2025-09-10" tag="v3.1.0">
-      Updated EEPROM Flash Algorithms (Aligned the sector size with the page size)
-      Updated debug configuration files
-      Updated documentation references
-      Updated Templates:
-      - Added DWARF-5 debug information
-      - Added generated output files
-      Package Description (pdsc):
-      - Shortened device family description
-      - Added Ddsp processor attribute
-    </release>
-    <release version="3.0.0" date="2025-03-21" tag="v3.0.0">
-      Updated for new CMSIS-Toolbox CubeMX integration
-      Removed STM32CubeMX_FW_L0
-      Removed board drivers (Basic I/O, ...)
-      Removed all examples
-      Removed previous generator (gpdsc)
-      Added new global generator
-      Package Description (pdsc):
-      - Removed Device:Startup component
-      - Removed Device:STM32Cube HAL components
-      - Removed Device:STM32Cube LL components
-      - Removed Board descriptions
-      - Removed compile device header from device description
-      - Removed unused conditions
-      - Replaced documentation files with permalinks
-      - Added LICENSE file
-    </release>
     <release version="2.3.0" date="2024-03-11">
       Updated STM32Cube FW to STM32Cube_FW_L0_V1.12.2 (HAL V1.10.6).
       Package Description (pdsc):
