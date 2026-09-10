@@ -13,6 +13,9 @@
   </licenseSets>
 
   <releases>
+    <release version="3.1.1-dev">
+      Active development ...
+    </release>
     <release version="3.1.0" date="2025-09-10" tag="v3.1.0">
       Updated EEPROM Flash Algorithms (Aligned the sector size with the page size)
       Updated debug configuration files
@@ -342,7 +345,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <device Dname="STM32L010C6Tx">
           <compile define="STM32L010x6"/>
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00008000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000100" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000100" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00002000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_32.FLM"         start="0x08000000" size="0x00008000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L010x6_8_EEPROM.FLM" start="0x08080000" size="0x00000100" default="0"/>
@@ -356,7 +359,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <device Dname="STM32L010F4Px">
           <compile define="STM32L010x4"/>
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00004000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000080" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000080" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00000800" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_16.FLM"         start="0x08000000" size="0x00004000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L010x4_EEPROM.FLM"   start="0x08080000" size="0x00000080" default="0"/>
@@ -370,7 +373,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <device Dname="STM32L010K4Tx">
           <compile define="STM32L010x4"/>
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00004000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000080" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000080" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00000800" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_16.FLM"         start="0x08000000" size="0x00004000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L010x4_EEPROM.FLM"   start="0x08080000" size="0x00000080" default="0"/>
@@ -384,7 +387,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <device Dname="STM32L010K8Tx">
           <compile define="STM32L010x8"/>
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000100" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000100" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00002000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L010x6_8_EEPROM.FLM" start="0x08080000" size="0x00000100" default="0"/>
@@ -398,7 +401,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <device Dname="STM32L010R8Tx">
           <compile define="STM32L010x8"/>
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000100" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000100" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00002000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L010x6_8_EEPROM.FLM" start="0x08080000" size="0x00000100" default="0"/>
@@ -412,7 +415,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <device Dname="STM32L010RBTx">
           <compile define="STM32L010xB"/>
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000200" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00000200" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L010xB_EEPROM.FLM"   start="0x08080000" size="0x00000200" default="0"/>
@@ -435,9 +438,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000200" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L01_2x_EEPROM.FLM"     start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -583,9 +585,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000200" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L01_2x_EEPROM.FLM"     start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -641,9 +642,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000400" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L03_4x_EEPROM.FLM"     start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -789,9 +789,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000400" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L03_4x_EEPROM.FLM"     start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -883,9 +882,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -1085,9 +1083,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -1300,9 +1297,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -1436,9 +1432,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -1509,9 +1504,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
 
@@ -1587,10 +1581,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071C8Tx'  ***************************** -->
         <device Dname="STM32L071C8Tx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFP" n="48"/>
         </device>
@@ -1598,10 +1592,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071C8Ux'  ***************************** -->
         <device Dname="STM32L071C8Ux">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFN" n="48"/>
         </device>
@@ -1609,7 +1603,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071CBTx'  ***************************** -->
         <device Dname="STM32L071CBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1620,7 +1614,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071CBUx'  ***************************** -->
         <device Dname="STM32L071CBUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1631,7 +1625,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071CBYx'  ***************************** -->
         <device Dname="STM32L071CBYx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1642,7 +1636,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071CZTx'  ***************************** -->
         <device Dname="STM32L071CZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1653,7 +1647,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071CZUx'  ***************************** -->
         <device Dname="STM32L071CZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1664,7 +1658,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071CZYx'  ***************************** -->
         <device Dname="STM32L071CZYx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1675,10 +1669,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071K8Ux'  ***************************** -->
         <device Dname="STM32L071K8Ux">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFN" n="32"/>
         </device>
@@ -1686,7 +1680,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071KBTx'  ***************************** -->
         <device Dname="STM32L071KBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1697,7 +1691,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071KBUx'  ***************************** -->
         <device Dname="STM32L071KBUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1708,7 +1702,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071KZTx'  ***************************** -->
         <device Dname="STM32L071KZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1719,7 +1713,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071KZUx'  ***************************** -->
         <device Dname="STM32L071KZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1730,7 +1724,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071RBHx'  ***************************** -->
         <device Dname="STM32L071RBHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1741,7 +1735,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071RBTx'  ***************************** -->
         <device Dname="STM32L071RBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1752,7 +1746,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071RZHx'  ***************************** -->
         <device Dname="STM32L071RZHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1763,7 +1757,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071RZTx'  ***************************** -->
         <device Dname="STM32L071RZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1774,10 +1768,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071V8Tx'  ***************************** -->
         <device Dname="STM32L071V8Tx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFP" n="100"/>
         </device>
@@ -1785,7 +1779,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071VBTx'  ***************************** -->
         <device Dname="STM32L071VBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1796,7 +1790,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L071VZTx'  ***************************** -->
         <device Dname="STM32L071VZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1826,7 +1820,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CBTx'  ***************************** -->
         <device Dname="STM32L072CBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1837,7 +1831,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CBUx'  ***************************** -->
         <device Dname="STM32L072CBUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1848,7 +1842,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CBYx'  ***************************** -->
         <device Dname="STM32L072CBYx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1859,7 +1853,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CZEx'  ***************************** -->
         <device Dname="STM32L072CZEx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1870,7 +1864,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CZTx'  ***************************** -->
         <device Dname="STM32L072CZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1881,7 +1875,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CZUx'  ***************************** -->
         <device Dname="STM32L072CZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1892,7 +1886,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072CZYx'  ***************************** -->
         <device Dname="STM32L072CZYx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1903,7 +1897,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072KBUx'  ***************************** -->
         <device Dname="STM32L072KBUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1914,7 +1908,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072KZTx'  ***************************** -->
         <device Dname="STM32L072KZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1925,7 +1919,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072KZUx'  ***************************** -->
         <device Dname="STM32L072KZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1936,7 +1930,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072RBHx'  ***************************** -->
         <device Dname="STM32L072RBHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1947,7 +1941,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072RBIx'  ***************************** -->
         <device Dname="STM32L072RBIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1958,7 +1952,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072RBTx'  ***************************** -->
         <device Dname="STM32L072RBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1969,7 +1963,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072RZIx'  ***************************** -->
         <device Dname="STM32L072RZIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1980,7 +1974,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072RZTx'  ***************************** -->
         <device Dname="STM32L072RZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -1991,7 +1985,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072RZHx'  ***************************** -->
         <device Dname="STM32L072RZHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2002,10 +1996,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072V8Ix'  ***************************** -->
         <device Dname="STM32L072V8Ix">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="BGA" n="100"/>
         </device>
@@ -2013,10 +2007,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072V8Tx'  ***************************** -->
         <device Dname="STM32L072V8Tx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFP" n="100"/>
         </device>
@@ -2024,7 +2018,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072VBTx'  ***************************** -->
         <device Dname="STM32L072VBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2035,7 +2029,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072VBIx'  ***************************** -->
         <device Dname="STM32L072VBIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2045,7 +2039,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072VZIx'  ***************************** -->
         <device Dname="STM32L072VZIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2056,7 +2050,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L072VZTx'  ***************************** -->
         <device Dname="STM32L072VZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2086,7 +2080,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073CBTx'  ***************************** -->
         <device Dname="STM32L073CBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2097,7 +2091,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073CBUx'  ***************************** -->
         <device Dname="STM32L073CBUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2108,7 +2102,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073CZTx'  ***************************** -->
         <device Dname="STM32L073CZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2119,7 +2113,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073CZUx'  ***************************** -->
         <device Dname="STM32L073CZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2130,7 +2124,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073CZYx'  ***************************** -->
         <device Dname="STM32L073CZYx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2141,7 +2135,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073RBHx'  ***************************** -->
         <device Dname="STM32L073RBHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2152,7 +2146,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073RBTx'  ***************************** -->
         <device Dname="STM32L073RBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2163,7 +2157,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073RZHx'  ***************************** -->
         <device Dname="STM32L073RZHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2174,7 +2168,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073RZIx'  ***************************** -->
         <device Dname="STM32L073RZIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2185,7 +2179,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073RZTx'  ***************************** -->
         <device Dname="STM32L073RZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2196,10 +2190,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073V8Tx'  ***************************** -->
         <device Dname="STM32L073V8Tx">
           <memory name="Flash"  access="rx"                       start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                        start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                        start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                      start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"          start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"   start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"   start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFP" n="100"/>
         </device>
@@ -2207,7 +2201,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073VBTx'  ***************************** -->
         <device Dname="STM32L073VBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2218,7 +2212,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073VZIx'  ***************************** -->
         <device Dname="STM32L073VZIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2229,7 +2223,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L073VZTx'  ***************************** -->
         <device Dname="STM32L073VZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2259,7 +2253,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L081CBTx'  ***************************** -->
         <device Dname="STM32L081CBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2270,7 +2264,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L081CZTx'  ***************************** -->
         <device Dname="STM32L081CZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2281,7 +2275,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L081CZUx'  ***************************** -->
         <device Dname="STM32L081CZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2292,7 +2286,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L081KZTx'  ***************************** -->
         <device Dname="STM32L081KZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2303,7 +2297,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L081KZUx'  ***************************** -->
         <device Dname="STM32L081KZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2324,9 +2318,8 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-		
-		<memory name="EEPROM" access="r"                         start="0x08080000" size="0x00001800" default="0"/>
-
+        
+        <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00001800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"     start="0x08080000" size="0x00001800" default="0"/>
 
@@ -2400,7 +2393,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083CBTx'  ***************************** -->
         <device Dname="STM32L083CBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2411,7 +2404,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083CZTx'  ***************************** -->
         <device Dname="STM32L083CZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2422,7 +2415,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083CZUx'  ***************************** -->
         <device Dname="STM32L083CZUx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2433,7 +2426,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083RBHx'  ***************************** -->
         <device Dname="STM32L083RBHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FL "        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2444,7 +2437,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083RBTx'  ***************************** -->
         <device Dname="STM32L083RBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2455,7 +2448,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083RZHx'  ***************************** -->
         <device Dname="STM32L083RZHx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2466,7 +2459,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083RZTx'  ***************************** -->
         <device Dname="STM32L083RZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2477,10 +2470,10 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083V8Tx'  ***************************** -->
         <device Dname="STM32L083V8Tx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00010000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080C00" size="0x00000C00" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00050000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_64.FLM"         start="0x08000000" size="0x00010000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000800" default="0"/>
+          <algorithm name="CMSIS/Flash/STM32L07x_64_EEPROM.FLM"  start="0x08080C00" size="0x00000C00" default="0"/>
 
           <feature type="QFP" n="100"/>
         </device>
@@ -2488,7 +2481,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083VBTx'  ***************************** -->
         <device Dname="STM32L083VBTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2499,7 +2492,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083VZIx'  ***************************** -->
         <device Dname="STM32L083VZIx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
@@ -2510,7 +2503,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
         <!-- *************************  Device 'STM32L083VZTx'  ***************************** -->
         <device Dname="STM32L083VZTx">
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00030000" default="1" startup="1"/>
-		  <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
+          <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L0xx_192.FLM"        start="0x08000000" size="0x00030000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
