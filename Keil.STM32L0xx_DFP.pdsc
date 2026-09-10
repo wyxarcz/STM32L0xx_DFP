@@ -2400,7 +2400,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           <memory name="Flash"  access="rx"                      start="0x08000000" size="0x00020000" default="1" startup="1"/>
           <memory name="EEPROM" access="r"                       start="0x08080000" size="0x00001800" default="0"/>
           <memory name="SRAM"   access="rwx"                     start="0x20000000" size="0x00005000" default="1"/>
-          <algorithm name="CMSIS/Flash/STM32L0xx_128.FL "        start="0x08000000" size="0x00020000" default="1"/>
+          <algorithm name="CMSIS/Flash/STM32L0xx_128.FLM"        start="0x08000000" size="0x00020000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"   start="0x08080000" size="0x00001800" default="0"/>
 
           <feature type="BGA" n="64"/>
