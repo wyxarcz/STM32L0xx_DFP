@@ -410,7 +410,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L01_2x_EEPROM.FLM"     start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -557,7 +557,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L01_2x_EEPROM.FLM"     start="0x08080000" size="0x00000200" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -614,7 +614,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L03_4x_EEPROM.FLM"     start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -761,7 +761,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L03_4x_EEPROM.FLM"     start="0x08080000" size="0x00000400" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -854,7 +854,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -1055,7 +1055,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -1269,7 +1269,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -1404,7 +1404,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -1476,7 +1476,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L05_6x_EEPROM.FLM"     start="0x08080000" size="0x00000800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
@@ -2290,7 +2290,7 @@ Ultra-low-power STM32L0 MCUs with Arm Cortex-M0+ core, MPU, 0.95 DMIPS at 32 MHz
           __var DbgMCU_APB2_Fz = 0x00000024;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var DoOptionByteLoading = 0;       // Disabled
         </debugvars>
-        
+
         <memory name="EEPROM" access="r"                         start="0x08080000" size="0x00001800" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L0xx_OPT.FLM"          start="0x1FF80000" size="0x00000014" default="0"/>
         <algorithm name="CMSIS/Flash/STM32L07_8x_EEPROM.FLM"     start="0x08080000" size="0x00001800" default="0"/>
